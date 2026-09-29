@@ -1,26 +1,26 @@
 class Vetto < Formula
   desc "Daemon-less, root-less kernel sandbox and policy enforcement runtime for AI coding agents"
   homepage "https://github.com/shleder/vetto"
-  version "0.5.8"
+  version "0.5.9"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/shleder/vetto/releases/download/v0.5.8/vetto-macos-aarch64.tar.gz"
-      sha256 "5abc7692af66204d39d03ded1e6b7b4d849a9a01eee47b8546a19a3578e79371"
+      url "https://github.com/shleder/vetto/releases/download/v0.5.9/vetto-macos-aarch64.tar.gz"
+      sha256 "6a96f45ca3e2650f3f06f7a3ccb2288ac310b51072aca611d6c49200f0963eb2"
     else
-      url "https://github.com/shleder/vetto/releases/download/v0.5.8/vetto-macos-x86_64.tar.gz"
-      sha256 "bb8d1ef511d9c029874ed6b27a7110f060ff8a0b2b5ed1d689d6872848a073f2"
+      url "https://github.com/shleder/vetto/releases/download/v0.5.9/vetto-macos-x86_64.tar.gz"
+      sha256 "8f87917eea65ce7888e8f769114c9b0e24bd6a6908ee09b68c3ae6f85205165d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/shleder/vetto/releases/download/v0.5.8/vetto-linux-aarch64.tar.gz"
-      sha256 "ea220209179ae492ba423cab5f32383cdb033240c632214b447d7bcdd920be64"
+      url "https://github.com/shleder/vetto/releases/download/v0.5.9/vetto-linux-aarch64.tar.gz"
+      sha256 "4b2c9ef2527608ae54920c558f4537659550b3949d56fa88bf65cdd9380c72ad"
     else
-      url "https://github.com/shleder/vetto/releases/download/v0.5.8/vetto-linux-x86_64.tar.gz"
-      sha256 "1b4f293d5cd7d9e0c5088cf8dbc7a2ced77daf882f0897e9d517d17b31793b17"
+      url "https://github.com/shleder/vetto/releases/download/v0.5.9/vetto-linux-x86_64.tar.gz"
+      sha256 "41d423da1b32489b90b4506a4b55437eca48f4223cfdda667982d15a0120e5c2"
     end
   end
 
